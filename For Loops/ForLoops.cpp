@@ -34,5 +34,17 @@ int main()
         }
         cout<<endl;
     }
+    //for(;;) {
+    //    cout<<"infinite loop "<<endl;
+    //}
+    for (;;) {
+    // Do some stuff...
+    cout << "Enter a number and press ENTER: ";
+    int n;
+    cin >> n;
+    if (n == 0)
+    break;
+    // Do some more stuff...
+    }
 	return 0;
 }
