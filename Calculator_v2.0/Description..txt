@@ -1,0 +1,4 @@
+Calculator application with menu built with Visual Studio 2022
+Type: console aplication
+Programming language: C++
+Other info: Version 2.0
