@@ -89,19 +89,19 @@ void Calculator::LongInput()
 void Calculator::Addition()
 {
 	DoubleInput();
-	cout << "Result: " << dnumber1 << " + \n\t" << dnumber2 << endl << "\t\xC4\xC4\xc4" << endl << "\t" << dnumber1 + dnumber2 << endl << endl;
+	cout << "Result: " << dnumber1 << " + \n\t" << dnumber2 << endl << "\t\xC4\xC4\xC4" << endl << "\t" << dnumber1 + dnumber2 << endl << endl;
 }
 
 void Calculator::Substraction()
 {
 	DoubleInput();
-	cout << "Result: " << dnumber1 << " - \n\t" << dnumber2 << endl << "\t\xC4\xC4\xc4" << endl << "\t" << dnumber1 - dnumber2 << endl << endl;
+	cout << "Result: " << dnumber1 << " - \n\t" << dnumber2 << endl << "\t\xC4\xC4\xC4" << endl << "\t" << dnumber1 - dnumber2 << endl << endl;
 }
 
 void Calculator::Multiplication()
 {
 	LongInput();
-	cout << "Result: " << lnumber1 << " * \n\t" << lnumber2 << endl << "\t\xC4\xC4\xc4\xC4\xC4\xc4\xC4" << endl << "\t" << lnumber1 * lnumber2 << endl << endl;
+	cout << "Result: " << lnumber1 << " * \n\t" << lnumber2 << endl << "\t\xC4\xC4\xC4\xC4\xC4\xC4\xC4" << endl << "\t" << lnumber1 * lnumber2 << endl << endl;
 }
 
 void Calculator::Division()
@@ -118,7 +118,7 @@ void Calculator::Division()
 		{
 			throw "Division by zero condition!\n";
 		}
-		cout << "Result: " << dnumber1 << " / \n\t" << dnumber2 << endl << "\t\xC4\xC4\xc4\xC4\xc4\xC4\xc4" << endl << "\t" << dnumber1 / dnumber2 << endl << endl;
+		cout << "Result: " << dnumber1 << " / \n\t" << dnumber2 << endl << "\t\xC4\xC4\xC4\xC4\xC4\xC4\xC4" << endl << "\t" << dnumber1 / dnumber2 << endl << endl;
 	}
 	catch (const char* msg)
 	{
@@ -129,24 +129,24 @@ void Calculator::Division()
 void Calculator::DivisionWithoutRemainder()
 {
 	Input();
-	cout << "Result: " << number1 << " / \n\t" << number2 << endl << "\t\xC4\xC4\xc4" << endl << "\t" << number1 / number2 << endl << endl;
+	cout << "Result: " << number1 << " / \n\t" << number2 << endl << "\t\xC4\xC4\xC4" << endl << "\t" << number1 / number2 << endl << endl;
 }
 
 void Calculator::Modulo()
 {
 	Input();
-	cout << "Result: " << number1 << " % \n\t" << number2 << endl << "\t\xC4\xC4\xc4" << endl << "\t" << number1 % number2 << endl << endl;
+	cout << "Result: " << number1 << " % \n\t" << number2 << endl << "\t\xC4\xC4\xC4" << endl << "\t" << number1 % number2 << endl << endl;
 }
 
 void Calculator::Pow()
 {
 	DoubleInput();
-	cout << "Result: " << dnumber1 << "^\n\t" << dnumber2 << endl << "\t\xC4\xC4\xc4" << endl << "\t" << pow(dnumber1, dnumber2) << endl << endl;
+	cout << "Result: " << dnumber1 << "^\n\t" << dnumber2 << endl << "\t\xC4\xC4\xC4" << endl << "\t" << pow(dnumber1, dnumber2) << endl << endl;
 }
 
 void Calculator::Sqrt()
 {
 	cout << "Enter a number: " << endl;
 	cin >> dnumber1;
-	cout << "Result: " << dnumber1 << "sqrt\n\t\xC4\xC4\xc4\xC4\xc4\n\t" << sqrt(dnumber1) << endl << endl;
+	cout << "Result: " << dnumber1 << "sqrt\n\t\xC4\xC4\xC4\xC4\xC4\n\t" << sqrt(dnumber1) << endl << endl;
 }
