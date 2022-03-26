@@ -5,20 +5,19 @@ Building projects with C++ programming language.
 From simple projects to complex projects.
 
 From topics like: 
-- ariables
+- variables
 - data types
 - functions or methods
 - recursive functions
-- operators,
+- operators
 - loops(for loops, while, do-while)
 - if statements, if-else if statements
 - conditional statements
 - switch statements 
-- to 
 - classes
 - objects
 - headers
-- rototypes
+- prototypes
 - inheritance
 - polymorphism
 - virtual functions
