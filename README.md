@@ -4,6 +4,13 @@ Building projects with C++ programming language.
 
 From simple projects to complex projects.
 
+# Games
+- Simple Hangman Game
+- Pong Game
+- Ship Battle Game
+- Snake Game
+- Tic-Tac-Toe
+
 From topics like: 
 - variables
 - data types
