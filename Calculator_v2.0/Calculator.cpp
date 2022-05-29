@@ -17,7 +17,7 @@ void Calculator::Display()
 		cout << "6. Modulo" << endl;
 		cout << "7. Pow" << endl;
 		cout << "8. Sqrt" << endl;
-		cout << "9.Exit the application" << endl << endl;
+		cout << "9. Exit the application" << endl << endl;
 		
 		try
 		{
@@ -55,7 +55,7 @@ void Calculator::Display()
 				menu = 2;
 				break;
 			default:
-				cout << "Invalid input! Please enter a number between 1 and 7!" << endl;
+				cout << "Invalid input! Please enter a number between 1 and 9!" << endl;
 				break;
 			}
 			if (ch == 0 || ch < 0 )
